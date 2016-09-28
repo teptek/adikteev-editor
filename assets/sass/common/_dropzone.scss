@@ -1,0 +1,13 @@
+.dropzone {
+  padding: 0;
+  min-height: inherit;
+  background-color: transparent;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  .dz-message {
+    color: #aaa;
+  }
+}
+
+.bg-image {
+  padding: 20px;
+}

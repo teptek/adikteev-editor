@@ -1,0 +1,27 @@
+{
+  "name": "adikteev-editor",
+  "authors": [
+    "Tep Chann Nimmith Tek"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "bootstrap-colorpicker": "^2.3.5",
+    "jquery-sticky": "sticky#^1.0.3",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "^3.3.7",
+    "draggabilly": "^2.1.1",
+    "rangeslider.js": "^2.2.1",
+    "dropzone": "^4.3.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "adikteev-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tep Chann Nimmith",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}

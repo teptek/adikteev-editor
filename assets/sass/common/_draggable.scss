@@ -1,0 +1,19 @@
+.draggable {
+  display: table;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  &.is-pointer-down {
+    background: #09F;
+    z-index: 2; /* above other draggies */
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
+  &.is-dragging {
+    opacity: 0.7;
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
+}

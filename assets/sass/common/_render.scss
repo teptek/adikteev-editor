@@ -1,0 +1,36 @@
+$width: 780px;
+
+.main {
+  float: inherit;
+  left: 500px;
+  position: relative;
+  width: calc(100% - 500px);
+}
+
+.artcl-main {
+  margin: 40px auto 0 !important;
+  width: $width !important;
+  float: inherit !important;
+}
+
+#custom-banner {
+  background-color: $background-grey;
+  display: block;
+}
+
+#custom-banner {
+  overflow: hidden;
+  width: calc(#{$width} - 38px);
+  height: calc((#{$width} - 38px) / 2.8984375);
+  h1, h2, h3, h4, h5, p {
+    font-family: 'Raleway', sans-serif;
+  }
+  #texte {
+    color: $black;
+    font-size: 1.8rem;
+    position: relative;
+  }
+  #title {
+    color: $black;
+  }
+}
